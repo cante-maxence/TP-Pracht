@@ -1,6 +1,6 @@
 <template>
     <div class="p-2">
-        <h1 class="text-2xl">Page Liste Fetch</h1>
+        <h1 class="text-2xl">Page Liste Fetch incomplet</h1>
         <div v-for="maisons in maisons" :key="maisons.prix">
             <card class="w-1/2" v-bind="maisons"/>
         </div>
