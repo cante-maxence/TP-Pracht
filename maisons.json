@@ -1,0 +1,20 @@
+[
+    {
+        "prix": "2588",
+        "nom": "Maison de luxe",
+        "adresse": "7 rue Michel"
+    }
+
+    {
+        "prix": "1528",
+        "nom": "Maison vraiment de luxe",
+        "adresse": "5 rue Michelle"
+    }
+
+
+    {
+        "prix": "5885",
+        "nom": "Maison pas ouf",
+        "adresse": "775 rue Michels"
+    }
+]
