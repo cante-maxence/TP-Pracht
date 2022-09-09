@@ -1,6 +1,6 @@
 <template>
     <div class="p-2">
-        <h1 class="text-2xl">Liste pour v-for</h1>
+        <h1 class="text-2xl">Page Liste Fetch</h1>
         <div v-for="maisons in maisons" :key="maisons.prix">
             <card class="w-1/2" v-bind="maisons"/>
         </div>
@@ -10,9 +10,6 @@
 <script setup lang="ts">
 import card from "../components/card.vue";
 
-const obj = {
-  nom: "Maison bleu",
-  prix: "5000",
-};
-import maisons from "../assets/maisons.json";
+const res = await fetch("maisons.json");
+const maisons = await res.json();
 </script>
