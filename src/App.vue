@@ -10,7 +10,11 @@
         <br>
 <hr>
           <suspense>
+            <hr>
         <Router-link to="/listeJson"/>
+        <hr>
+        <Router-link to="/new"/>
+        <hr>
         </suspense>
         <hr>
         <br>
@@ -19,6 +23,7 @@
   </nav>
 
 <a href="simple">Page N°2</a>
+<a href="new">Page N°2</a>
 
 
 
