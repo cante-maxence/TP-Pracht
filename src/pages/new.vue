@@ -1,11 +1,11 @@
 <script setup lang="ts">
-import FicheOffreMaison from "./FicheOffreMaison.vue";
-
-const maison = ref({});
+import FicheOffreMaison from "../components/FormulaireOffreMaison.vue";
 </script>
 
 <template>
- <FormKit/>
+
+ <FicheOffreMaison/>
+
 
 
   </template>
