@@ -1,15 +1,9 @@
-<template>
-    <div class="p-2">
-        <h1 class="text-2xl">Page Liste Fetch incomplet</h1>
-        <div v-for="maisons in maisons" :key="maisons.prix">
-            <card class="w-1/2" v-bind="maisons"/>
-        </div>
-    </div>
-    </template>
-
 <script setup lang="ts">
-import card from "../components/card.vue";
-
-const res = await fetch("maisons.json");
+import Card from "../components/card.vue";
+const res = await fetch("src/assets/maisons.json");
 const maisons = await res.json();
 </script>
+
+<template>
+    <Card v-for="maison in maisons" :key="maison.nom" v-bind="maison"></Card>
+</template>

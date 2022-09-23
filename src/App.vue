@@ -9,28 +9,38 @@
       <li>
         <br>
 <hr>
-          <suspense>
+         
             <hr>
         <Router-link to="/listeJson"/>
         <hr>
         <Router-link to="/new"/>
         <hr>
-        </suspense>
+        
         <hr>
         <br>
       </li>
     </ul>
   </nav>
 
-<a href="simple">Page N°2</a>
-<a href="new">Page N°2</a>
+<a href="simple">Page simple</a>
+<br><br>
+<a href="new">Page new</a>
+<br><br>
+<a href="liste">Page liste</a>
+
+<br><br>
+<a href="listeJson">Page listeJson</a>
+<br><br>
+<a href="new">Page autre</a>
 
 
 
 
 
   <!-- Affiche les pages -->
+   <Suspense>
   <router-view class="m-2 border-2 p-2" />
+   </Suspense>
 </template>
 
 <script setup lang="ts">
