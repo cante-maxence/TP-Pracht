@@ -32,12 +32,13 @@ export default {
   components: { carre, bath, beds, heart },
 
   props: {
-    nom: String,
+    nomMaison: String,
     prix: Number,
     adresse: String,
     favori: Boolean,
     image: String, // les images sont simplement l'URL absolue (depuis la racine, débute par '/' )
     nbrSDB: Number,
+    nbrChambres: Number,
   },
 };
 </script>

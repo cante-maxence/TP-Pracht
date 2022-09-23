@@ -31,7 +31,10 @@
 <br><br>
 <a href="listeJson">Page listeJson</a>
 <br><br>
-<a href="new">Page autre</a>
+<a href="liste-supabase">Page liste-supabase</a>
+<br><br>
+<a href="id">Page id</a>
+
 
 
 
@@ -39,7 +42,7 @@
 
   <!-- Affiche les pages -->
    <Suspense>
-  <router-view class="m-2 border-2 p-2" />
+  <RouterView class="m-2 border-2 p-2" />
    </Suspense>
 </template>
 
