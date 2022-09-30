@@ -11,6 +11,7 @@ const router = createRouter({
   routes: [
     // possible d'ajouter ses propres routes
     // en plus de celles faites automatiquement
+
     ...routesFromPages,
   ],
 });
